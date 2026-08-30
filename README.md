@@ -64,7 +64,7 @@ comparar, sobre uma base real, o desempenho de diferentes algoritmos de busca.
 
 ### A base de dados
 
-Arquivo [`DADOS_ABERTOS_MEDICAMENTOS.csv`](https://dados.anvisa.gov.br/dados/), publicado pela Anvisa:
+Arquivo `DADOS_ABERTOS_MEDICAMENTOS.csv`, publicado pela [Anvisa](https://dados.anvisa.gov.br/dados/):
 
 <div align="center">
 
@@ -93,18 +93,64 @@ execução** e o **número de comparações** de cada uma:
 
 ## Guia de instalação
 
-### Dependências do projeto
-
-_A definir._
-
-### Como executar o projeto
+### 1. Clone este repositório
 
 ```bash
 git clone https://github.com/eda2-2026/G14_Busca_EDA2-2026.2.git
 cd G14_Busca_EDA2-2026.2
 ```
 
-_A definir._
+### 2. Pré-requisitos
+
+#### Linux (Ubuntu/Debian)
+
+- Certifique-se de ter o `make`, `python3`, `pip` e `venv` instalados:
+
+```bash
+sudo apt update
+sudo apt install -y make python3 python3-pip python3-venv
+```
+
+#### Windows
+
+- Instale o [Git for Windows](https://git-scm.com/download/win)
+- Instale o [Chocolatey](https://chocolatey.org/install) (executando o terminal **como administrador**)
+- Em seguida, instale o Python e o Make com:
+
+```cmd
+choco install python make
+```
+
+### 3. Construir o ambiente com Make
+
+Após instalar os pré-requisitos, execute:
+
+```bash
+make setup
+```
+
+O script irá:
+
+- Verificar o interpretador Python
+- Criar o ambiente virtual em `.venv`
+- Instalar as dependências do [`requirements.txt`](requirements.txt)
+
+### 4. Executar a aplicação
+
+```bash
+make run
+```
+
+Outros alvos disponíveis:
+
+| Comando | O que faz |
+| :--- | :--- |
+| `make help` | lista todos os comandos |
+| `make test` | roda os testes (pytest) |
+| `make lint` | verifica o estilo do código (ruff) |
+| `make clean` | remove o ambiente virtual e os arquivos temporários |
+
+> A base de dados fica em `data/`.
 
 ## Capturas de tela
 
