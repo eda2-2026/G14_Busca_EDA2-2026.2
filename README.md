@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/tema-Algoritmos%20de%20Busca-1f4e79?style=flat-square" alt="Tema: algoritmos de busca">
-  <img src="https://img.shields.io/badge/registros-43.444-4a90a4?style=flat-square" alt="Base com 43.444 registros">
-  <img src="https://img.shields.io/badge/fonte-dados%20abertos%20Anvisa-6aa84f?style=flat-square" alt="Fonte: dados abertos da Anvisa">
+  <img src="https://img.shields.io/badge/Tema-Algoritmos%20de%20Busca-1f4e79?style=flat-square" alt="Tema: algoritmos de busca">
+  <img src="https://img.shields.io/badge/Registros-43.444-4a90a4?style=flat-square" alt="Base com 43.444 registros">
+  <img src="https://img.shields.io/badge/Fonte-Dados%20abertos%20Anvisa-6aa84f?style=flat-square" alt="Fonte: Dados abertos da Anvisa">
 </p>
 
 
@@ -112,12 +112,13 @@ _A definir._
 
 ## Referências
 
-- **Anvisa.** Dados abertos — Medicamentos. <https://dados.anvisa.gov.br/dados/>
-- **ROSA, J. L. G.** *SCC-201 — Métodos de Busca.* ICMC/USP, 2009.
+- **Anvisa.** Dados abertos - Medicamentos. <https://dados.anvisa.gov.br/dados/>
+- **ROSA, J. L. G.** *SCC-201 - Métodos de Busca.* ICMC/USP, 2009.
 - **CORMEN, T. H.** et al. *Introduction to Algorithms.* 3rd ed. MIT Press, 2009.
 
 ---
 
 <p align="center">
-  <sub>Trabalho 1 · Estruturas de Dados 2 · 2026.2 · UnB — FCTE · Prof. Maurício Serrano</sub>
+  <sub>Trabalho 1 da disciplina Estruturas de Dados 2 (2026.2)</sub><br>
+  <sub>Universidade de Brasília - FCTE - Prof. Maurício Serrano</sub>
 </p>
