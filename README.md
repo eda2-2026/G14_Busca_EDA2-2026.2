@@ -68,7 +68,6 @@ Arquivo [`DADOS_ABERTOS_MEDICAMENTOS.csv`](https://dados.anvisa.gov.br/dados/), 
 
 <div align="center">
 
-| | |
 | ---: | :--- |
 | **Registros** | 43.444 |
 | **Formato** | CSV, separador `;`, codificação ISO-8859-1 |
