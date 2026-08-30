@@ -71,10 +71,14 @@ Arquivo [`DADOS_ABERTOS_MEDICAMENTOS.csv`](https://dados.anvisa.gov.br/dados/), 
 | | |
 | ---: | :--- |
 | **Registros** | 43.444 |
+| **Snapshot** | baixado em 30/08/2026 |
 | **Formato** | CSV, separador `;`, codificação ISO-8859-1 |
 | **Campos** | nome, categoria regulatória, nº de registro, nº do processo, classe terapêutica, empresa detentora, situação, princípio ativo |
 
 </div>
+
+> A Anvisa substitui o arquivo sem versionamento nem changelog. Todos os números
+> deste repositório referem-se ao snapshot acima; um download posterior pode divergir.
 
 ### Os algoritmos
 
