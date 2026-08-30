@@ -51,7 +51,7 @@ $ busca-medicamentos --nome "CLORIDRATO DE FLUOXETINA"
 
 <div align="center">
 
-| [<img src="https://res.cloudinary.com/dll5ypaj7/image/fetch/f_auto,w_150,h_150,c_fill,r_30,bo_2px_solid_rgb:2d333b/https://github.com/arthurrochamoreira.png" width="100">](https://github.com/arthurrochamoreira)<br><nobr><sub style="font-size: 80%;">Arthur Moreira</sub></nobr> | [<img src="https://res.cloudinary.com/dll5ypaj7/image/fetch/f_auto,w_150,h_150,c_fill,r_30,bo_2px_solid_rgb:2d333b/https://github.com/dev-LucasDpaula.png" width="100">](https://github.com/dev-LucasDpaula)<br><nobr><sub style="font-size: 80%;">Lucas D. Paula</sub></nobr> |
+| [<img src="https://res.cloudinary.com/dll5ypaj7/image/fetch/f_auto,w_300,h_300,c_fill,r_30,bo_2px_solid_rgb:2d333b/https://github.com/arthurrochamoreira.png" width="200">](https://github.com/arthurrochamoreira)<br><nobr><sub style="font-size: 160%;">Arthur Moreira</sub></nobr> | [<img src="https://res.cloudinary.com/dll5ypaj7/image/fetch/f_auto,w_300,h_300,c_fill,r_30,bo_2px_solid_rgb:2d333b/https://github.com/dev-LucasDpaula.png" width="200">](https://github.com/dev-LucasDpaula)<br><nobr><sub style="font-size: 160%;">Lucas D. Paula</sub></nobr> |
 | :---: | :---: |
 | 21/1030658 | 24/1011386 |
 
