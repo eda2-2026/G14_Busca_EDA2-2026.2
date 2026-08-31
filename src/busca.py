@@ -18,6 +18,45 @@ def preparar_busca_binaria(
 )
 
 
+def busca_binaria(
+    medicamentos_ordenados: list[Medicamento],
+    termo: str,
+) -> tuple[Medicamento | None, int, float]:
+    alvo = termo.strip()
+
+    if not alvo.isdigit():
+        return None, 0, 0.0
+
+    alvo_numero = int(alvo)
+
+    inicio = 0
+    fim = len(medicamentos_ordenados) - 1
+    comparacoes = 0
+    encontrado = None
+
+    tempo_inicio = perf_counter()
+
+    while inicio <= fim:
+        meio = (inicio + fim) // 2
+        medicamento = medicamentos_ordenados[meio]
+        registro = int(medicamento.numero_registro_produto.strip())
+
+        comparacoes += 1
+
+        if registro == alvo_numero:
+            encontrado = medicamento
+            break
+
+        if alvo_numero < registro:
+            fim = meio - 1
+        else:
+            inicio = meio + 1
+
+    tempo_ms = (perf_counter() - tempo_inicio) * 1000
+
+    return encontrado, comparacoes, tempo_ms
+
+
 def busca_sequencial(
     medicamentos: list[Medicamento],
     termo: str,
