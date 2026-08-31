@@ -22,16 +22,22 @@ BASE = [fabricar("DIPIRONA"), fabricar("FLUOXETINA"), fabricar("PARACETAMOL")]
 
 
 def test_encontra_ignorando_caixa():
-    encontrados, comparacoes, _ = busca_sequencial(BASE, "fluoxetina")
-    assert len(encontrados) == 1
-    assert comparacoes == 3
+    encontrado, comparacoes, _ = busca_sequencial(BASE, "fluoxetina")
+    assert encontrado.nome_produto == "FLUOXETINA"
+    assert comparacoes == 2
+
+
+def test_para_no_primeiro_encontrado():
+    _, comparacoes, _ = busca_sequencial(BASE, "dipirona")
+    assert comparacoes == 1
 
 
 def test_nao_encontra():
-    encontrados, _, _ = busca_sequencial(BASE, "ASPIRINA")
-    assert encontrados == []
+    encontrado, comparacoes, _ = busca_sequencial(BASE, "ASPIRINA")
+    assert encontrado is None
+    assert comparacoes == 3
 
 
 def test_base_vazia():
-    encontrados, comparacoes, _ = busca_sequencial([], "dipirona")
-    assert encontrados == [] and comparacoes == 0
+    encontrado, comparacoes, _ = busca_sequencial([], "dipirona")
+    assert encontrado is None and comparacoes == 0
