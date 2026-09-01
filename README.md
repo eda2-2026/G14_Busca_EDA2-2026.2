@@ -470,6 +470,10 @@ make lint
 
 ## Capturas de tela
 
+### Exemplo de busca por Óleo Mineral
+
+A aplicação exibe os dados do medicamento encontrado e compara, lado a lado, o número de comparações e o tempo de execução da busca sequencial e da busca binária.
+
 ![Exemplo de execução do Busca_Medicamentos](docs/images/exemplo.png)
 
 ---
