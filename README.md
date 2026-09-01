@@ -38,11 +38,9 @@ $ busca-medicamentos --nome "CLORIDRATO DE FLUOXETINA"
 │ sequencial │      21 843 │ 4,10 ms │
 ├────────────┼─────────────┼─────────┤
 │ binária    │          16 │ 0,01 ms │
-├────────────┼─────────────┼─────────┤
-│ hashing    │           1 │ 0,00 ms │
 └────────────┴─────────────┴─────────┘
 
-  → hashing foi 410x mais rápido que a busca sequencial
+  → a busca binária foi 1 365x mais rápida que a busca sequencial
 ```
 
 > Saída ilustrativa da interface pretendida; os números reais serão medidos sobre a base completa.
@@ -89,7 +87,6 @@ execução** e o **número de comparações** de cada uma:
 | :--- | :---: | :--- | :--- |
 | Busca sequencial | `O(n)` | qualquer campo | linha de base, sem pré-processamento |
 | Busca binária | `O(log n)` | `NUMERO_REGISTRO_PRODUTO` | chave numérica, exige base ordenada |
-| Hashing | `O(1)` médio | `NOME_PRODUTO` / `PRINCIPIO_ATIVO` | acesso quase direto; mede colisões em campos repetidos |
 
 ## Guia de instalação
 
