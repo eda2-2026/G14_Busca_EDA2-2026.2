@@ -16,12 +16,12 @@
 
 ## Sobre o projeto
 
-**Busca_Medicamentos** é um trabalho da disciplina **Estruturas de Dados 2 (2026.2)** da Universidade de Brasília — FCTE.
+**Busca_Medicamentos** é um trabalho da disciplina **Estruturas de Dados 2 (2026.2)** da Universidade de Brasília - FCTE.
 
 A aplicação utiliza uma base real de medicamentos disponibilizada pela Anvisa para comparar duas estratégias de busca:
 
-- **Busca sequencial — `O(n)`**
-- **Busca binária — `O(log n)`**
+- **Busca sequencial - `O(n)`**
+- **Busca binária - `O(log n)`**
 
 As duas estratégias recebem a **mesma consulta pelo nome do medicamento**, permitindo comparar de forma coerente:
 
@@ -143,7 +143,6 @@ A cada iteração, o algoritmo examina o elemento central e elimina aproximadame
                     MEIO
                       ↓
 [---------------------------------------------]
-
 alvo < meio                     alvo > meio
     ↓                               ↓
 metade esquerda                metade direita
@@ -346,11 +345,11 @@ G14_Busca_EDA2-2026.2/
 ## Tecnologias utilizadas
 
 - **Python 3**
-- **pandas** — leitura da base CSV
-- **Rich** — interface e tabelas no terminal
-- **pytest** — testes automatizados
-- **Ruff** — análise de estilo e qualidade do código
-- **GNU Make** — automação do ambiente e comandos do projeto
+- **pandas** - leitura da base CSV
+- **Rich** - interface e tabelas no terminal
+- **pytest** - testes automatizados
+- **Ruff** - análise de estilo e qualidade do código
+- **GNU Make** - automação do ambiente e comandos do projeto
 
 ---
 
@@ -365,7 +364,7 @@ cd G14_Busca_EDA2-2026.2
 
 ### 2. Pré-requisitos
 
-#### Linux — Ubuntu/Debian
+#### Linux - Ubuntu/Debian
 
 ```bash
 sudo apt update
@@ -492,13 +491,13 @@ além de mostrar a importância da preparação dos dados e da escolha adequada 
 
 ## Referências
 
-- **ANVISA.** Dados abertos — Medicamentos. https://dados.anvisa.gov.br/dados/
-- **ROSA, J. L. G.** *SCC-201 — Métodos de Busca.* ICMC/USP, 2009.
+- **ANVISA.** Dados abertos - Medicamentos. https://dados.anvisa.gov.br/dados/
+- **ROSA, J. L. G.** *SCC-201 - Métodos de Busca.* ICMC/USP, 2009.
 - **CORMEN, T. H. et al.** *Introduction to Algorithms.* 3rd ed. MIT Press, 2009.
 
 ---
 
 <p align="center">
-  <sub>Trabalho 1 da disciplina Estruturas de Dados 2 — 2026.2</sub><br>
-  <sub>Universidade de Brasília — FCTE — Prof. Maurício Serrano</sub>
+  <sub>Trabalho 1 da disciplina Estruturas de Dados 2 - 2026.2</sub><br>
+  <sub>Universidade de Brasília - FCTE - Prof. Maurício Serrano</sub>
 </p>
