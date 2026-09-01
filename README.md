@@ -14,6 +14,10 @@
 
 ---
 
+- Link para apresentação: https://youtu.be/cgPYl67Y0DY
+
+---
+
 ## Sobre o projeto
 
 **Busca_Medicamentos** é um trabalho da disciplina **Estruturas de Dados 2 (2026.2)** da Universidade de Brasília - FCTE.
@@ -42,10 +46,6 @@ A aplicação é executada pelo terminal e apresenta o medicamento encontrado e 
 | 21/1030658 | 24/1011386 |
 
 </div>
-
----
-
-- Link para apresentação: ![Apresentação Busca_Medicamentos - EDA2](https://youtu.be/cgPYl67Y0DY)
 
 ---
 
