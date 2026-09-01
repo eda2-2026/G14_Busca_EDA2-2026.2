@@ -45,6 +45,10 @@ A aplicação é executada pelo terminal e apresenta o medicamento encontrado e 
 
 ---
 
+- Link para apresentação: ![Apresentação Busca_Medicamentos - EDA2](https://youtu.be/cgPYl67Y0DY)
+
+---
+
 ## Base de dados
 
 O projeto utiliza o arquivo:
@@ -466,7 +470,7 @@ make lint
 
 ## Capturas de tela
 
-> Adicionar aqui uma captura da execução final exibindo o medicamento encontrado e a comparação entre busca sequencial e busca binária.
+![Exemplo de execução do Busca_Medicamentos](docs/images/exemplo.png)
 
 ---
 
